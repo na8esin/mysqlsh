@@ -7,6 +7,7 @@
 
 ## load例
 `mysqlsh -h 127.0.0.1 -u root -P 3306  --py < load_local.py`
+すでにデータが存在している場合は、上書きされます。
 
 ## .env読み込み
 `export $(cat .env | grep -v ^# | xargs)`
