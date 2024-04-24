@@ -2,6 +2,8 @@
 
 事故を減らすためには、dumpとloadはスクリプトを分けて、vpn接続などを切ってからlocalにloadした方がいいと思います。
 
+jsモードだと日付の扱いが面倒なので、pythonにしてます。
+
 ## dump例
 `mysqlsh -h stg_hostname -u root -P 3306  --py < dump_stg.py`
 
